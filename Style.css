@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<body>
+<p class="p1"><span class="s1">body</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">font-family</span><span class="s1">: Arial, sans-serif;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">margin</span><span class="s1">: </span><span class="s4">0</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">0</span><span class="s1">;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">background-color</span><span class="s2">: white;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">color</span><span class="s1">: black;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">header</span><span class="s2"> {</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">background</span><span class="s2">: </span><span class="s4">#333</span><span class="s2">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">color</span><span class="s1">: white;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">text-align</span><span class="s1">: center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">15px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">nav</span><span class="s2"> </span><span class="s1">ul</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">display</span><span class="s1">: flex;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">justify-content</span><span class="s2">: center;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">background</span><span class="s2">: </span><span class="s4">#444</span><span class="s2">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">10px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">nav</span><span class="s2"> </span><span class="s1">ul</span><span class="s2"> </span><span class="s1">li</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">list-style</span><span class="s1">: none;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">margin</span><span class="s1">: </span><span class="s4">0</span><span class="s1"> </span><span class="s4">15px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">nav</span><span class="s2"> </span><span class="s1">ul</span><span class="s2"> </span><span class="s1">li</span><span class="s2"> </span><span class="s1">a</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">color</span><span class="s1">: white;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">text-decoration</span><span class="s2">: none;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">section</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">20px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">text-align</span><span class="s1">: center;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">form</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">display</span><span class="s1">: flex;</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">flex-direction</span><span class="s2">: column;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">width</span><span class="s1">: </span><span class="s4">50%</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">margin</span><span class="s1">: auto;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">form</span><span class="s2"> </span><span class="s1">input</span><span class="s2">, </span><span class="s1">form</span><span class="s2"> </span><span class="s1">textarea</span><span class="s2"> {</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom</span><span class="s2">: </span><span class="s4">10px</span><span class="s2">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">8px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">border</span><span class="s1">: </span><span class="s4">1px</span><span class="s1"> solid </span><span class="s4">#ccc</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">button</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">padding</span><span class="s1">: </span><span class="s4">10px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">background</span><span class="s1">: blue;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">color</span><span class="s1">: white;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">border</span><span class="s1">: none;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">cursor</span><span class="s1">: pointer;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">button</span><span class="s4">:hover</span><span class="s2"> {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">background</span><span class="s1">: darkblue;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p5"><span class="s5">/* Dark Mode Styles */</span></p>
+<p class="p6"><span class="s1">.dark-mode</span><span class="s2"> {</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">background-color</span><span class="s2">: black;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">color</span><span class="s1">: white;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+</body>
+</html>
